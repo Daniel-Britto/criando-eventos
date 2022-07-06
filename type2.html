@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <nav class="row">
+        <a href="type1.html" class="button">Type 1</a>
+        <a href="type2.html" class="button button-center">Type 2</a>
+        <a href="type3.html" class="button">Type 3</a>
+
+    </nav>
+
+    <main>
+
+        <section class="row">
+            <h1>Evento de onmouseover e onmouseout</h1>
+
+            <figure class="col-6 col-s-12"><img src="assets/img/luz-apagada.jpg" alt="Lampada apagada" max-width="100px" class="lampada" onmouseover="acende()" onmouseout="apaga()" onclick="quebra()"></figure>
+            
+
+            <aside class="col-6 col-s-12">
+                <p>Passe o mouse por cima da figura para ativar o evento <strong>onmouseover</strong>.</p>
+                <br>
+                <p>Retire o mouse de cima da figura para ativar o evento <strong>onmouseout</strong>.</p>
+                <br>
+                <p>Clique na figura para ativar o evento <strong>onclick</strong>.</p>
+            </aside>
+        </section>
+    </main>
+
+    <script src="./assets/js/quebra_lampada.js"></script>
+</body>
+</html>
